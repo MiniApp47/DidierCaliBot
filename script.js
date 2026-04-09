@@ -75,8 +75,8 @@ const appData = [
                 farm: 'Chemdawg Sour Diesel',
                 promoEligible: true,
                 type: 'Weed',
-                image: 'ProductChem.jpg',
-                images: ['ProductChem3.jpg','ProductChem2.jpg'],
+                image: 'ProductChem3.jpg',
+                images: ['ProductChem.jpg','ProductChem2.jpg'],
                 description: 'Le président Chem Sou, également connu sous le nom de Chemdawg Sour Diesel, est une souche hybride 🪦à dominante Sativa. \n élevée en 🪦qui est en moyenne d\'environ 22 %, mais peut parfois atteindre jusqu\'à 26 %.     \n\n  🪖 Le président Chem Sou est célébré pour ses effets édifiants et énergisants🪦, ce qui en fait un choix populaire pour une utilisation en journée.😏Cependant, les débutants doivent procéder avec prudence en raison de ses puissants effets psychoactifs. La teneur élevée en 🪦 du président Chem Sou peut le rendre bénéfique pour ceux qui souffrent de stress, 🪦🪦de dépression et de douleur chronique.  \n Cette variété est souvent décrite comme ayant un profil de saveur complexe, avec des notes de diesel🌿 \n d\'agrumes🍋‍🟩de pin 🌟et un soupçon de terre 🧁',
                 tarifs: [
                     { weight: '10g', price: 100.00 }
