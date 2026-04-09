@@ -108,7 +108,20 @@ const appData = [
         quality: '🌷 Hollande',
         image: 'CategHollande.png', 
         products: [
-            
+            {
+                id: 'SuperSilverHaze 👑',
+                flag: '🇺🇸',
+                name: 'SuperSilverHaze 👑',
+                farm: 'DidierSelection 🗽',
+                promoEligible: true,
+                type: 'Weed',
+                image: 'ProductSSh.jpg',
+                video: 'VideoSSH.mov',
+                description: 'La SSH vient d\'un programme de sélection d\'Amnesia Haze et a dominé la plupart des compétitions auxquelles elle a pris part. \n La SSH a mérité sa place sur les menus des coffeeshops à Amsterdam 🇳🇱grâce à ses arômes prononcés et ses lourds effets 🌿\n L\'effet est puissant, bourdonnant et énergétique, ce qui en fait une herbe parfaite à fumer 😏pour se balader sous le soleil ☀️à Amsterdam. \n Elle comporte 80 % de génétiques🌿et seulement 20 % de génétique🌿\n\n EFFET : Fort 😧\n Euphorique 😄\n Motivant ☮️\n Longue durée 🪦 \n Cérébral 🪦',
+                tarifs: [
+                    { weight: '10g', price: 100.00 }
+                ]
+            }
         ]
     },
 
@@ -145,7 +158,20 @@ const appData = [
         quality: '💎 Filtré',
         image: 'CategFiltre.png', 
         products: [
-            // Ajouter les produits filtrés ici plus tard
+            {
+                id: '🍓 Strawberry Banana 🍌',
+                flag: '🇺🇸',
+                name: '🍓 Strawberry Banana 🍌',
+                farm: 'DidierSelection 🗽',
+                promoEligible: true,
+                type: 'Filtre',
+                image: 'ProductSB.jpg',
+                video: 'VideoSB.mp4',
+                description: 'La strawberry 🍓Banana 🍌 différencie des autres variétés grâce à sa puissance et ses effets uniques. \n Avec un taux de 👩‍🔬 allant de 22 % à 30 %, elle n’est pas recommandée pour les consommateurs débutants, mais elle vaut la peine d’être essayée pour les amateurs de 🍫plus expérimentés. \n\n Les effets de la stramberry Banana sont décrits comme provoquant une forte euphorie 😄associée à une profonde relaxation corporelle. \n Les consommateurs thérapeutiques 🪦rapportent également l’avoir utilisé avec succès pour soulager différents symptômes/pathologies.🪦🪦',
+                tarifs: [
+                    { weight: '10g', price: 100.00 }
+                ]
+            }
         ]
     },
 
@@ -157,6 +183,38 @@ const appData = [
         quality: '🍪 Edibles',
         image: 'CategEdibles.png', 
         products: [
+            {
+                id: 'Guava Haze 🥭🍍',
+                flag: '🇺🇸',
+                name: 'Guava Haze 🥭🍍',
+                farm: 'Boutiq',
+                promoEligible: false,
+                type: 'Vape',
+                image: 'ProductReG.jpg',
+                images: ['ProductReG1.jpg','ProductReG2.jpg','ProductReG3.jpg'],
+                description: 'Premium cartriges 1g distillat 🎇\n 800mg/1g ≈ ( 80% tétrahydrocanbinol ¥9 👩‍🔬  \n    ( Naturel Végétal terpènes ) \n ( COMPOSITION CARTRIGES)',
+                tarifs: [
+                    { weight: '1 Unité', price: 60.00 },
+                    { weight: '5 Unité', price: 250.00 },
+                    { weight: '10 Unité', price: 450.00 },
+                ]
+            },
+            {
+                id: 'DO SI DOS 🍪🧁',
+                flag: '🇺🇸',
+                name: 'DO SI DOS 🍪🧁',
+                farm: 'Boutiq',
+                promoEligible: false,
+                type: 'Vape',
+                image: 'ProductReDo.jpg',
+                images: ['ProductReDo1.jpg','ProductReDo2.jpg','ProductReDo3.jpg'],
+                description: 'Premium cartriges 1g distillat 🎇\n 800mg/1g ≈ ( 80% tétrahydrocanbinol ¥9 👩‍🔬 ( Naturel Végétal terpènes ) \n ( COMPOSITION CARTRIGES)',
+                tarifs: [
+                    { weight: '1 Unité', price: 60.00 },
+                    { weight: '5 Unité', price: 250.00 },
+                    { weight: '10 Unité', price: 450.00 },
+                ]
+            },
             {
                 id: 'VAPE_BOUTIQ_1G',
                 flag: '🇺🇸',
