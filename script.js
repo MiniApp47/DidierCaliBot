@@ -115,7 +115,7 @@ const appData = [
                 farm: 'DidierSelection 🗽',
                 promoEligible: true,
                 type: 'Weed',
-                image: 'ProductSSh.jpg',
+                image: 'ProductSSH.jpg',
                 video: 'VideoSSH.mov',
                 description: 'La SSH vient d\'un programme de sélection d\'Amnesia Haze et a dominé la plupart des compétitions auxquelles elle a pris part. \n La SSH a mérité sa place sur les menus des coffeeshops à Amsterdam 🇳🇱grâce à ses arômes prononcés et ses lourds effets 🌿\n L\'effet est puissant, bourdonnant et énergétique, ce qui en fait une herbe parfaite à fumer 😏pour se balader sous le soleil ☀️à Amsterdam. \n Elle comporte 80 % de génétiques🌿et seulement 20 % de génétique🌿\n\n EFFET : Fort 😧\n Euphorique 😄\n Motivant ☮️\n Longue durée 🪦 \n Cérébral 🪦',
                 tarifs: [
