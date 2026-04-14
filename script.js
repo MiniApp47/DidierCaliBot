@@ -69,6 +69,21 @@ const appData = [
         image: 'CategCali.png', 
         products: [
             {
+                id: 'PURPLE RUNTZ🍇',
+                flag: '🇺🇸',
+                name: 'PURPLE RUNTZ 🍇',
+                farm: 'DidierSelection 🗽',
+                promoEligible: true,
+                type: 'Weed',
+                image: 'ProductPR.jpg',
+                images: ['ProductPR1.jpg'],
+                video: 'VideoPR.mov',
+                description: 'Les critiques de Leafly qui ont fumé cette variété disent qu\'elle les rend excités, euphoriques et picotants. Purple Runtz a 14 % de THC et est idéal pour les consommateurs de cannabis nouveaux et expérimentés.  \n\n Le terpène dominant de cette variété est le limonène, qui est souvent associé à la saveur d\'agrumes.  \n Les consommateurs disent que Leafly Purple Runtz a une saveur terreuse, avec des nuances de raisin et tropicales. Les patients de marijuana médicale achètent souvent cette variété lorsqu\'ils font face à une douleur légère, au stress ou à une inflammation.',
+                tarifs: [
+                    { weight: '10g', price: 100.00 }
+                ]
+            },
+            {
                 id: 'HOL_CHEM_SOU',
                 flag: '🇺🇸',
                 name: 'MAN CHEMSOU 🪖',
@@ -77,7 +92,7 @@ const appData = [
                 type: 'Weed',
                 image: 'ProductChem3.jpg',
                 images: ['ProductChem.jpg','ProductChem2.jpg'],
-                description: 'Le président Chem Sou, également connu sous le nom de Chemdawg Sour Diesel, est une souche hybride 🪦à dominante Sativa. \n élevée en 🪦qui est en moyenne d\'environ 22 %, mais peut parfois atteindre jusqu\'à 26 %.     \n\n  🪖 Le président Chem Sou est célébré pour ses effets édifiants et énergisants🪦, ce qui en fait un choix populaire pour une utilisation en journée.😏Cependant, les débutants doivent procéder avec prudence en raison de ses puissants effets psychoactifs. La teneur élevée en 🪦 du président Chem Sou peut le rendre bénéfique pour ceux qui souffrent de stress, 🪦🪦de dépression et de douleur chronique.  \n Cette variété est souvent décrite comme ayant un profil de saveur complexe, avec des notes de diesel🌿 \n d\'agrumes🍋‍🟩de pin 🌟et un soupçon de terre 🧁',
+                description: 'Le président Chem Sou, également connu sous le nom de Chemdawg Sour Diesel, est une souche hybride 🪦 à dominante Sativa. \n élevée en 🪦qui est en moyenne d\'environ 22 %, mais peut parfois atteindre jusqu\'à 26 %.     \n\n  🪖 Le président Chem Sou est célébré pour ses effets édifiants et énergisants🪦, ce qui en fait un choix populaire pour une utilisation en journée.😏Cependant, les débutants doivent procéder avec prudence en raison de ses puissants effets psychoactifs. La teneur élevée en 🪦 du président Chem Sou peut le rendre bénéfique pour ceux qui souffrent de stress, 🪦🪦de dépression et de douleur chronique.  \n Cette variété est souvent décrite comme ayant un profil de saveur complexe, avec des notes de diesel🌿 \n d\'agrumes🍋‍🟩de pin 🌟et un soupçon de terre 🧁',
                 tarifs: [
                     { weight: '10g', price: 100.00 }
                 ]
