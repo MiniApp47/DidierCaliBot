@@ -174,6 +174,20 @@ const appData = [
         image: 'CategFiltre.png', 
         products: [
             {
+                id: 'Gas Mint 🧊',
+                flag: '🇺🇸',
+                name: 'Gas Mint 🧊',
+                farm: 'DidierSelection 🗽',
+                promoEligible: true,
+                type: 'Filtre',
+                image: 'ProductGM.png',
+                video: 'VideoGM.mp4',
+                description: 'Allumer Gas Mint, c\'est comme allumer une fusée. 🚀 \n\n Les effets montent rapidement, élèvent votre humeur et affûtent vos sens, avant de se stabiliser dans un calme apaisant et équilibré.',
+                tarifs: [
+                    { weight: '10g', price: 100.00 }
+                ]
+            },
+            {
                 id: '🍓 Strawberry Banana 🍌',
                 flag: '🇺🇸',
                 name: '🍓 Strawberry Banana 🍌',
