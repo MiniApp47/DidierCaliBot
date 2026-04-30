@@ -83,7 +83,7 @@ const appData = [
                     { weight: '10g', price: 100.00 }
                 ]
             },
-            {
+         /*    {
                 id: 'HOL_CHEM_SOU',
                 flag: '🇺🇸',
                 name: 'MAN CHEMSOU 🪖',
@@ -96,7 +96,7 @@ const appData = [
                 tarifs: [
                     { weight: '10g', price: 100.00 }
                 ]
-            },
+            }, */
             {
                 id: 'ICE_CREAM',
                 flag: '🇺🇸',
