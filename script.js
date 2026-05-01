@@ -69,6 +69,21 @@ const appData = [
         image: 'CategCali.png', 
         products: [
             {
+                id: 'COCO CHANEL',
+                flag: '🇺🇸',
+                name: 'COCO CHANEL ⚭',
+                farm: 'DidierSelection 🗽',
+                promoEligible: true,
+                type: 'Weed',
+                image: 'ProductCC.jpg',
+                images: ['ProductCC1.jpg', 'ProductCC2.jpg'],
+                video: 'VideoCC.mov',
+                description: 'Si vous avez envie de vous promener dans un verger ensoleillé avec une touche ludique, alors la variété de cannabis Coco Chanel est ce dont vous avez besoin ! \n Il est dominé par le myrcène ; cette belle sativa a des nuances terreuses qui dansent bien aux côtés de saveurs fruitées comme les prunes juteuses ainsi que les oranges🍊rafraîchissantes \n Le tout magnifiquement lié par des notes de pamplemousse piquantes',
+                tarifs: [
+                    { weight: '10g', price: 100.00 }
+                ]
+            },
+            {
                 id: 'PURPLE RUNTZ🍇',
                 flag: '🇺🇸',
                 name: 'PURPLE RUNTZ 🍇',
