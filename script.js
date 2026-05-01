@@ -69,6 +69,21 @@ const appData = [
         image: 'CategCali.png', 
         products: [
             {
+                id: 'CEREAL MILK',
+                flag: '🇺🇸',
+                name: 'CEREAL MILK 🥣',
+                farm: 'DidierSelection 🗽',
+                promoEligible: true,
+                type: 'Weed',
+                image: 'ProductCM.jpg',
+                images: ['ProductCM1.jpg', 'ProductCM2.jpg'],
+                video: 'VideoCM.mov',
+                description: 'Les biscuits au lait aux céréales sont la variété qui satisfait votre dent sucrée et plus encore. \n Imaginez une table de petit-déjeuner couverte de toutes sortes de friandises - \n Imaginez maintenant ces saveurs se mélanger pendant que vous prenez une bouchée. C\'est comme une pomme fraîche, une vanille et du sucre qui se font des amis à travers votre palais à chaque croquant (très agréable). Ce n\'est pas seulement quelque chose de savoureux ; il a également des effets qui garderont l\'ennui à distance tout en impressionnant même les connaisseurs de cannabis chevronnés.',
+                tarifs: [
+                    { weight: '10g', price: 100.00 }
+                ]
+            },
+            {
                 id: 'COCO CHANEL',
                 flag: '🇺🇸',
                 name: 'COCO CHANEL ⚭',
@@ -83,7 +98,7 @@ const appData = [
                     { weight: '10g', price: 100.00 }
                 ]
             },
-            {
+           /*  {
                 id: 'PURPLE RUNTZ🍇',
                 flag: '🇺🇸',
                 name: 'PURPLE RUNTZ 🍇',
@@ -97,7 +112,7 @@ const appData = [
                 tarifs: [
                     { weight: '10g', price: 100.00 }
                 ]
-            },
+            }, */
          /*    {
                 id: 'HOL_CHEM_SOU',
                 flag: '🇺🇸',
@@ -112,7 +127,7 @@ const appData = [
                     { weight: '10g', price: 100.00 }
                 ]
             }, */
-            {
+          /*   {
                 id: 'ICE_CREAM',
                 flag: '🇺🇸',
                 name: 'ICE CREAM CAKE 🍰',
@@ -126,7 +141,7 @@ const appData = [
                 tarifs: [
                     { weight: '10g', price: 100.00 }
                 ]
-            }
+            } */
         ]
     },
 
