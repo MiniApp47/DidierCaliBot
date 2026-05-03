@@ -69,6 +69,21 @@ const appData = [
         image: 'CategCali.png', 
         products: [
             {
+                id: 'Fresca de Poetry',
+                flag: '🇺🇸',
+                name: 'Fresca de Poetry 🍋‍🟩',
+                farm: 'DidierSelection 🗽',
+                promoEligible: true,
+                type: 'Weed',
+                image: 'ProductFR.jpg',
+                images: ['ProductFR1.jpg', 'ProductFR2.jpg'],
+                video: 'VideoFR.mov',
+                description: 'Présentation d\'Agua Fresca de Poetry of Plants, une tournure rafraîchissante dans le monde du cannabis. \n Avec son arôme de citron vert 🍋‍🟩 au concombre 🥒 convaincant et ses notes Z, cette variété est un délice pour les sens.\n Cet hybride à tendance indica hérite de sa lignée de Atomic Collider #09 x Rainbow Belts 2.0, promettant une expérience relaxante mais édifiante rappelant Zkittles. Parfait pour une utilisation de jour, Agua Fresca améliore vos moments sans submerger, rendant chaque jour un peu plus lumineux et plus agréable.',
+                tarifs: [
+                    { weight: '10g', price: 100.00 }
+                ]
+            },
+            {
                 id: 'CEREAL MILK',
                 flag: '🇺🇸',
                 name: 'CEREAL MILK 🥣',
