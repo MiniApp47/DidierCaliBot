@@ -196,12 +196,13 @@ const appData = [
             {
                 id: 'MOUSS_TERREUX',
                 flag: '🇲🇦',
-                name: 'PINK LEMON 🍋🍓',
+                name: 'ROYAL 👑',
                 farm: 'No Farm',
                 promoEligible: true,
                 type: 'Hash',
                 image: 'ProductPK.jpg',
-                images: ['ProductPK2.jpg', 'ProductPK3.jpg'],
+                images: ['ProductPK2.jpg'],
+                video: 'VideoPK.mov',
                 description: 'SAVEURS  ET ARÔMES  \n\n 🔴Terreuses  : Un goût riche et profond qui rappelle la terre nourrissante des montagnes.  \n\n  🟢Fruitées  : Parfois, des nuances de fruits mûrs se mêlent à la terre, offrant une expérience gustative complexe.  \n\n EFFETS ET BIENFAITS   \n ⭐️Relaxation  : Aide à apaiser le stress et l\'anxiété.  \n\n 🪦 Soulagement de la Douleur  :  \n Efficace pour réduire l\'inconfort et la douleur chronique.  \n\n  💡🪦Amélioration du Sommeil  : Favorise un sommeil réparateur sans les effets d\'intoxication.',
                 tarifs: [
                     { weight: '20g', price: 100.00 }
