@@ -232,6 +232,7 @@ const appData = [
                 type: 'Hash',
                 image: 'ProductHS.png',
                 video: 'VideoHS.mov',
+                videos:['VideoHS2.mov','VideoHS3.mov'],
                 description: 'Extraction jaune mousseux d’origine marocaine, 🇲🇦 issue de la sélection HEADSET , reconnue pour sa texture légère et sa régularité.\n\n La texture est souple, mousseuse et homogène, facile à travailler. \n Elle développe des arômes gourmands et équilibrés, mêlant des notes légèrement sucrées avec une touche douce et subtilement végétale.',
                 tarifs: [
                     { weight: '18g', price: 100.00 }
@@ -272,6 +273,7 @@ const appData = [
                 type: 'Filtre',
                 image: 'ProductFF.png',
                 video: 'VideoFF.mov',
+                videos:['VideoFF2.mov'],
                 description: 'Une sélection premium 🏆 de gamme coffee shop, appréciée pour sa régularité, sa propreté et son profil aromatique équilibré.\n\n Origine : Maroc 🇲🇦 Gamme : Coffee Shop Qualité : Premium Variété : Lemon Cherry Texture : Fine, sèche, homogène Arômes : Citron, cerise, fruités, légèrement sucrés',
                 tarifs: [
                     { weight: '7g', price: 100.00 }
@@ -286,6 +288,7 @@ const appData = [
                 type: 'Filtre',
                 image: 'ProductLB.png',
                 video: 'VideoLB.mov',
+                videos:['VideoLB2.mov','VideoLB3.mov','VideoLB4.mov'],
                 description: 'Top Filtré X3 Tamisé a froid 🥶 \n\n Reconnue pour sa finesse de filtration et son profil aromatique fruité.\n La texture est fine, sèche et homogène, caractéristique d’un dry sift bien travaillé. \n Elle développe des arômes gourmands et expressifs, mêlant des notes de citron et de cerise avec une touche légèrement sucrée.',
                 tarifs: [
                     { weight: '10g', price: 100.00 }
