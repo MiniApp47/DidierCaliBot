@@ -128,7 +128,7 @@ const appData = [
                     { weight: '10g', price: 100.00 }
                 ]
             },
-            {
+           /*  {
                 id: 'COCO CHANEL',
                 flag: '🇺🇸',
                 name: 'COCO CHANEL ⚭',
@@ -142,7 +142,7 @@ const appData = [
                 tarifs: [
                     { weight: '10g', price: 100.00 }
                 ]
-            },
+            }, */
            /*  {
                 id: 'PURPLE RUNTZ🍇',
                 flag: '🇺🇸',
@@ -238,7 +238,7 @@ const appData = [
                     { weight: '18g', price: 100.00 }
                 ]
             },
-            {
+           /*  {
                 id: 'MOUSS_TERREUX',
                 flag: '🇲🇦',
                 name: 'ROYAL 👑',
@@ -252,7 +252,7 @@ const appData = [
                 tarifs: [
                     { weight: '20g', price: 100.00 }
                 ]
-            }
+            } */
         ]
     },
 
