@@ -77,8 +77,7 @@ const appData = [
                 type: 'Weed',
                 image: 'ProductPP.jpg',
                 images: ['ProductPP2.jpg'],
-                video: 'VideoPP2.mov',
-                 videos: ['VideoPP3.mov','VideoPP4.mov'],
+                 videos: ['VideoPP2.mov','VideoPP3.mov','VideoPP4.mov'],
                 description: 'Papaya Punch offre aux utilisateurs un high apaisant, parfait pour se détendre après une journée avec des amis ou une nuit tranquille à l\'intérieur. Papaya Punch a un arôme délicieux qui sent à la fois fruité et fromage, grâce aux terpènes dominants comme le caryophyllène et le linalol. \n La saveur est douce et fruitée, ce qui en fait une fleur savoureuse à rouler sans se soucier de se sentir trop défoncée ou racée. \n Si vous aimez ces variétés fruitées de milieu de route, Papaya Punch pourrait être votre nouveau favori.',
                 tarifs: [
                     { weight: '10g', price: 100.00 }
@@ -93,8 +92,7 @@ const appData = [
                 type: 'Weed',
                 image: 'ProductPRR.jpg',
                 images: ['ProductPRR.jpg'],
-                video: 'VideoPRR.mov',
-                videos: ['VideoPRR2.mov','VideoPRR3.mov'],
+                videos: ['VideoPRR.mov','VideoPRR2.mov','VideoPRR3.mov'],
                 description: 'Baklava contient 21 % de THC, ce qui fait de cette variété un choix idéal pour les consommateurs de cannabis expérimentés. Les clients de Leafly nous disent que les effets de Baklava comprennent la créativité, le picotement et l\'élévation. \n Les patients de marijuana médicale choisissent souvent le Baklava lorsqu\'ils font face à des symptômes associés à l\'anxiété, à la dépression et au stress',
                 tarifs: [
                     { weight: '10g', price: 100.00 }
