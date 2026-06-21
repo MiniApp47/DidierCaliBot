@@ -69,6 +69,21 @@ const appData = [
         image: 'CategCali.png', 
         products: [
             {
+                id: 'TROPICANA CHERRY 🍒',
+                flag: '🇺🇸',
+                name: 'TROPICANA CHERRY 🍒',
+                farm: 'DidierSelection 🗽',
+                promoEligible: true,
+                type: 'Weed',
+                image: 'ProductTC.jpg',
+                images: ['ProductTC2.jpg'],
+                 videos: ['VideoTC.mov','VideoTC2.mov'],
+                description: 'Tropicana Cherry Strain est un hybride sativa-dominant vibrant et savoureux connu pour son goût fruité alléchant et ses effets édifiants et énergisants. Avec des notes audacieuses de cerise, d\'agrumes et d\'épices terreuses, cette variété est devenue un favori parmi les fumeurs de jour et les esprits créatifs. \n Tropicana Cherry ne brille pas seulement en goût, elle offre également un high clair qui aide à améliorer l\'humeur et la concentration tout en apaisant le corps sans sédation.\n 16/21% THC',
+                tarifs: [
+                    { weight: '10g', price: 100.00 }
+                ]
+            },
+            {
                 id: 'PAPAYA PUNCH 🥊',
                 flag: '🇺🇸',
                 name: 'PAPAYA PUNCH 🥊',
