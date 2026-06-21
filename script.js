@@ -113,7 +113,7 @@ const appData = [
                     { weight: '10g', price: 100.00 }
                 ]
             },
-            {
+           /*  {
                 id: 'Purple Runtz',
                 flag: '🇺🇸',
                 name: 'Purple Runtz ☂️',
@@ -127,7 +127,7 @@ const appData = [
                 tarifs: [
                     { weight: '10g', price: 100.00 }
                 ]
-            },
+            }, */
             {
                 id: 'GIRLS SCOOT COOKIES 🍪',
                 flag: '🇺🇸',
@@ -143,7 +143,7 @@ const appData = [
                     { weight: '10g', price: 100.00 }
                 ]
             },
-            {
+           /*  {
                 id: 'Fresca de Poetry',
                 flag: '🇺🇸',
                 name: 'Fresca de Poetry 🍋‍🟩',
@@ -172,7 +172,7 @@ const appData = [
                 tarifs: [
                     { weight: '10g', price: 100.00 }
                 ]
-            },
+            }, */
            /*  {
                 id: 'COCO CHANEL',
                 flag: '🇺🇸',
