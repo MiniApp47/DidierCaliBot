@@ -130,7 +130,7 @@ const appData = [
                 promoEligible: true,
                 type: 'Weed',
                 image: 'ProductSSB.jpg',
-                images: ['ProductSSB2.jpg'],
+                images: ['ProductSSB.jpg','ProductSSB2.jpg'],
                  videos: ['VideoSSB.mov','VideoSSB2.mov'],
                 description: 'Sugar Baby contient 30 % de TH€, ce qui fait de cette variété un choix idéal pour les consommateurs de cannabis expérimentés. \n Les clients de Leafly nous disent que les effets de Sugar Baby sont actuellement inconnus. \n Les patients de marijuana médicale choisissent souvent Sugar Baby lorsqu\'ils sont confrontés à des symptômes associés à diverses conditions inconnues.',
                 tarifs: [
