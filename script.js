@@ -81,6 +81,9 @@ const appData = [
                 description: '« Love Potion » est une célèbre variété de cannabis (hybride à dominance Sativa) connue pour ses effets aphrodisiaques. \n Son profil terpénique unique (notes d\'agrumes et de Kush) est souvent recherché pour stimuler la libido, détendre le corps et améliorer l\'intimité.',
                 tarifs: [
                     { weight: '10g', price: 100.00 },
+                    { weight: '25G', price: 220.00 },
+                    { weight: '50G', price: 420.00 },
+                    { weight: '100G', price: 800.00 },
                 ]
             },
             {
@@ -96,6 +99,9 @@ const appData = [
                 description: 'La goyave se distingue par son profil d\'arôme et de saveur unique et séduisant. \n Le parfum doux et frais de la goyave combiné à des notes d\'agrumes et de subtiles notes de diesel crée un arôme inoubliable qui vous transporte dans un paradis tropical. \n\n En ce qui concerne la saveur, la goyave offre un mélange crémeux de fruits tropicaux et de goyave rose acidulée, finie par un punch de diesel épicé. \n Découvrez le plaisir sensoriel de la goyave, la variété de cannabis médicinal parfaite pour un vrai goût d\'Hawaï.',
                 tarifs: [
                     { weight: '10g', price: 100.00 },
+                    { weight: '25G', price: 220.00 },
+                    { weight: '50G', price: 420.00 },
+                    { weight: '100G', price: 800.00 },
                 ]
             },
             {
@@ -111,6 +117,9 @@ const appData = [
                 description: 'Le Juice est une variété d\'herbe hybride cette variété est de 50 % de sativa et de 50 % d\'indica. \n Le jus contient 30 % de THC, ce qui fait de cette variété un choix idéal pour les consommateurs de cannabis expérimentés. \n Élevé par des éleveurs inconnus,\n\n Nous apprenons encore les effets, les saveurs et les utilisations médicales de The Juice.',
                 tarifs: [
                     { weight: '10g', price: 100.00 },
+                    { weight: '25G', price: 220.00 },
+                    { weight: '50G', price: 420.00 },
+                    { weight: '100G', price: 800.00 },
                 ]
             },
             {
@@ -126,6 +135,9 @@ const appData = [
                 description: 'Sugar Baby contient 30 % de TH€, ce qui fait de cette variété un choix idéal pour les consommateurs de cannabis expérimentés. \n Les clients de Leafly nous disent que les effets de Sugar Baby sont actuellement inconnus. \n Les patients de marijuana médicale choisissent souvent Sugar Baby lorsqu\'ils sont confrontés à des symptômes associés à diverses conditions inconnues.',
                 tarifs: [
                     { weight: '10g', price: 100.00 },
+                    { weight: '25G', price: 220.00 },
+                    { weight: '50G', price: 420.00 },
+                    { weight: '100G', price: 800.00 },
                 ]
             },
             {
@@ -141,6 +153,9 @@ const appData = [
                 description: 'Cette souche est plus apaisante qu\'énergisante. \n Les critiques de Leafly qui ont fumé cette variété disent qu\'elle les rend excités, euphoriques et picotants. Purple Runtz a 14 % de TH€ et est idéal pour les consommateurs de cannabi$ nouveaux et expérimentés. \n Les consommateurs disent que Leafly Purple Runtz a une saveur terreuse, avec des nuances de raisin et tropicales.',
                 tarifs: [
                     { weight: '10g', price: 100.00 },
+                    { weight: '25G', price: 220.00 },
+                    { weight: '50G', price: 420.00 },
+                    { weight: '100G', price: 800.00 },
                 ]
             },
             {
