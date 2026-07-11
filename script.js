@@ -432,7 +432,7 @@ const appData = [
                     { weight: '10g', price: 100.00 }
                 ]
             },
-            {
+            /* {
                 id: 'Gas Mint 🧊',
                 flag: '🇺🇸',
                 name: 'Gas Mint 🧊',
@@ -445,8 +445,8 @@ const appData = [
                 tarifs: [
                     { weight: '10g', price: 100.00 }
                 ]
-            },
-            {
+            }, */
+           /*  {
                 id: '🍓 Strawberry Banana 🍌',
                 flag: '🇺🇸',
                 name: '🍓 Strawberry Banana 🍌',
@@ -459,7 +459,7 @@ const appData = [
                 tarifs: [
                     { weight: '10g', price: 100.00 }
                 ]
-            }
+            } */
         ]
     },
 
