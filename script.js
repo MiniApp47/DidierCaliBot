@@ -606,7 +606,7 @@ const appData = [
                 farm: 'No Farm',
                 promoEligible: true,
                 type: 'Hash',
-                image: 'ProductCO.jpg',
+                image: 'ProductCo.jpg',
                 images:['ProductCO2.jpg'],
                 video: 'VideoCo.mp4',
                 description: '',
