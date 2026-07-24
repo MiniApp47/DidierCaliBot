@@ -1002,7 +1002,31 @@
     font-weight: bold; 
     cursor: pointer; 
     z-index: 10000;
-}    </style>
+}   
+
+.add-to-cart-btn.out-of-stock-btn {
+    width: 90%;
+    min-height: 42px;
+    padding: 8px 12px;
+
+    background: rgba(255, 59, 48, 0.18);
+    border: 2px solid var(--red-color);
+    color: #ffffff;
+
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-align: center;
+
+    cursor: not-allowed;
+    opacity: 0.9;
+}
+
+.add-to-cart-btn.out-of-stock-btn:disabled {
+    pointer-events: none;
+}
+
+
+</style>
 </head>
 
 <body>

@@ -221,21 +221,27 @@ const appData = [
                     { weight: '10g', price: 100.00 }
                 ]
             }, */
-            {
-                id: 'GIRLS SCOOT COOKIES 🍪',
-                flag: '🇺🇸',
-                name: '👸🏻 GIRLS SCOOT COOKIES 🍪',
-                farm: 'DidierSelection 🗽',
-                promoEligible: true,
-                type: 'Weed',
-                image: 'ProductGRC.png',
-                images: ['ProductGRC.jpg'],
-                video: 'VideoGRC.mov',
-                description: 'Cette variété populaire est connue pour produire des effets euphoriques, suivis de vagues de relaxation du corps entier. \n Un coup de GSC vous laissera heureux, affamé et sans stress. Cette variété présente un niveau de THC robuste de 25 % et est mieux réservée aux consommateurs de cannabis expérimentés. \n Ceux qui ont une faible tolérance au THC devraient y aller doucement avec le GSC car les effets de la souche peuvent être écrasants.',
-                tarifs: [
-                    { weight: '10g', price: 100.00 }
-                ]
-            },
+           {
+    id: 'GIRLS SCOOT COOKIES 🍪',
+    flag: '🇺🇸',
+    name: '👸🏻 GIRLS SCOOT COOKIES 🍪',
+    farm: 'DidierSelection 🗽',
+    promoEligible: true,
+    type: 'Weed',
+
+    // Produit visible mais impossible à commander
+    outOfStock: true,
+
+    image: 'ProductGRC.png',
+    images: ['ProductGRC.jpg'],
+    video: 'VideoGRC.mov',
+
+    description: 'Cette variété populaire est connue pour produire des effets euphoriques, suivis de vagues de relaxation du corps entier. \n Un coup de GSC vous laissera heureux, affamé et sans stress. Cette variété présente un niveau de THC robuste de 25 % et est mieux réservée aux consommateurs de cannabis expérimentés. \n Ceux qui ont une faible tolérance au THC devraient y aller doucement avec le GSC car les effets de la souche peuvent être écrasants.',
+
+    tarifs: [
+        { weight: '10g', price: 100.00 }
+    ]
+},
            /*  {
                 id: 'Fresca de Poetry',
                 flag: '🇺🇸',
@@ -342,6 +348,8 @@ const appData = [
                 name: 'SuperSilverHaze 👑',
                 farm: 'DidierSelection 🗽',
                 promoEligible: true,
+                // Produit visible mais impossible à commander
+    outOfStock: true,
                 type: 'Weed',
                 image: 'ProductSSH.jpg',
                 video: 'VideoSSH.mov',
@@ -1038,17 +1046,42 @@ const appData = [
             variantsHTML = `<div class="product-options-container" style="margin-bottom: 15px;"><label style="color: #8e8e93; font-size: 0.9rem; margin-bottom: 5px; display:block;">Choisir :</label><select id="product-variant-select" style="width: 100%; padding: 12px; border-radius: 8px; background: #2c2c2e; color: white; border: 1px solid #3a3a3c;">${product.options.map(opt => `<option value="${opt}">${opt}</option>`).join('')}</select></div>`;
         }
     
-        let tarifsHTML = product.tarifs.map(tarif => `
-            <div class="tarif-item">
-                <div class="box-tarif">
-                    <div class="tarif-wieght">${tarif.weight}</div>
-                    <div class="tarif-price">${tarif.price.toFixed(2)}€</div>
-                </div>
-                <button class="add-to-cart-btn" data-product-id="${product.id}" data-weight="${tarif.weight}" data-price="${tarif.price}">
-                    <svg width="20" height="20"><use href="#icon-cart"/></svg>
-                </button>
+        let tarifsHTML = product.tarifs.map(tarif => {
+    const cartButtonHTML = product.outOfStock
+        ? `
+            <button
+                type="button"
+                class="add-to-cart-btn out-of-stock-btn"
+                disabled
+            >
+                ⛔ RUPTURE DE STOCK
+            </button>
+        `
+        : `
+            <button
+                type="button"
+                class="add-to-cart-btn"
+                data-product-id="${product.id}"
+                data-weight="${tarif.weight}"
+                data-price="${tarif.price}"
+            >
+                <svg width="20" height="20">
+                    <use href="#icon-cart"/>
+                </svg>
+            </button>
+        `;
+
+    return `
+        <div class="tarif-item">
+            <div class="box-tarif">
+                <div class="tarif-wieght">${tarif.weight}</div>
+                <div class="tarif-price">${tarif.price.toFixed(2)}€</div>
             </div>
-        `).join('');
+
+            ${cartButtonHTML}
+        </div>
+    `;
+}).join('');
     
         let descriptionHTML = product.description ? `<p class="product-description">${product.description.replace(/\n/g, '<br>')}</p>` : '';
         const oldVideo = document.querySelector('#page-product .product-video');
@@ -1243,24 +1276,51 @@ const appData = [
     }
 
     function addToCart(productId, weight, price, variant = null) {
-        const cartItemId = `${productId}-${weight}-${variant ? variant.replace(/\s+/g, '') : 'default'}`;
-        const existingItem = cart.find(item => item.id === cartItemId);
-        const product = getProductById(productId);
-        const displayName = variant ? `${product.name} \n👉 ${variant}` : product.name;
+    const product = getProductById(productId);
 
-        if (existingItem) {
-            existingItem.quantity++;
-            existingItem.totalPrice = existingItem.quantity * existingItem.unitPrice;
-        } else {
-            cart.push({
-                id: cartItemId, productId: productId, name: displayName, image: product.image,
-                weight: weight, quantity: 1, unitPrice: price, totalPrice: price, variant: variant
-            });
-        }
-        renderCart();
-        tg.HapticFeedback.notificationOccurred('success');
-        showNotification('✅ Produit ajouté au panier !');
+    if (!product) {
+        showNotification('❌ Produit introuvable.');
+        return;
     }
+
+    if (product.outOfStock === true) {
+        if (tg.HapticFeedback) {
+            tg.HapticFeedback.notificationOccurred('error');
+        }
+
+        showNotification('⛔ Ce produit est en rupture de stock.');
+        return;
+    }
+
+    const cartItemId = `${productId}-${weight}-${variant ? variant.replace(/\s+/g, '') : 'default'}`;
+    const existingItem = cart.find(item => item.id === cartItemId);
+    const displayName = variant ? `${product.name} \n👉 ${variant}` : product.name;
+
+    if (existingItem) {
+        existingItem.quantity++;
+        existingItem.totalPrice = existingItem.quantity * existingItem.unitPrice;
+    } else {
+        cart.push({
+            id: cartItemId,
+            productId: productId,
+            name: displayName,
+            image: product.image,
+            weight: weight,
+            quantity: 1,
+            unitPrice: price,
+            totalPrice: price,
+            variant: variant
+        });
+    }
+
+    renderCart();
+
+    if (tg.HapticFeedback) {
+        tg.HapticFeedback.notificationOccurred('success');
+    }
+
+    showNotification('✅ Produit ajouté au panier !');
+}
 
     function updateQuantity(cartItemId, action) {
         const item = cart.find(i => i.id === cartItemId);
