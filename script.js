@@ -571,7 +571,7 @@ const appData = [
                     { weight: '10 Unité', price: 450.00 },
                 ]
             },
-            {
+            /* {
                 id: 'VAPE_BOUTIQ_1G',
                 flag: '🇺🇸',
                 name: 'VAPE BOUTIQ 1G',
@@ -590,7 +590,7 @@ const appData = [
                 tarifs: [
                     { weight: '1 Unité', price: 75.00 }
                 ]
-            }
+            } */
         ]
     },
      // 4. COCA 
