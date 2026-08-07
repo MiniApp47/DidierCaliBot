@@ -602,6 +602,23 @@ const appData = [
         image: 'CategZip.png', 
         products: [
             {
+                id: 'Diesel 2 ⛽',
+                flag: '🇨🇴',
+                name: 'Diesel 2 ⛽',
+                farm: 'No Farm',
+                promoEligible: true,
+                type: 'Hash',
+                image: 'ProductD2.jpg',
+                video: 'VideoD2.mp4',
+                description: '',
+                tarifs: [
+                    { weight: '1g', price: 80.00 },
+                    { weight: '2g', price: 160.00 },
+                    { weight: '5g', price: 350.00 },
+                    { weight: '10g', price: 500.00 }
+                ]
+            },
+            {
                 id: 'Colombienne',
                 flag: '🇨🇴',
                 name: 'Colombienne 🇨🇴',
