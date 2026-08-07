@@ -402,7 +402,7 @@ const appData = [
                     { weight: '100g', price: 350.00 }
                 ]
             },
-            {
+           /*  {
                 id: 'HEADSET',
                 flag: '🇲🇦',
                 name: 'HEADSET 🤯',
@@ -415,7 +415,7 @@ const appData = [
                 tarifs: [
                     { weight: '18g', price: 100.00 }
                 ]
-            },
+            }, */
            /*  {
                 id: 'MOUSS_TERREUX',
                 flag: '🇲🇦',
