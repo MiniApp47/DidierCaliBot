@@ -104,7 +104,7 @@ const appData = [
                     { weight: '100G', price: 800.00 },
                 ]
             },
-            {
+            /* {
                 id: 'THE JUICE',
                 flag: '🇺🇸',
                 name: 'THE JUICE 🍹',
@@ -121,7 +121,7 @@ const appData = [
                     { weight: '50G', price: 420.00 },
                     { weight: '100G', price: 800.00 },
                 ]
-            },
+            }, */
             {
                 id: '🍬 SUGAR BABY 👼',
                 flag: '🇺🇸',
@@ -158,7 +158,7 @@ const appData = [
                     { weight: '100G', price: 800.00 },
                 ]
             },
-            {
+            /* {
                 id: 'TROPICANA CHERRY 🍒',
                 flag: '🇺🇸',
                 name: 'TROPICANA CHERRY 🍒',
@@ -173,7 +173,7 @@ const appData = [
                     { weight: '10g', price: 100.00 },
                     { weight: '25g', price: 220.00 }
                 ]
-            },
+            }, */
             {
                 id: 'PAPAYA PUNCH 🥊',
                 flag: '🇺🇸',
