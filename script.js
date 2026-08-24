@@ -584,7 +584,7 @@ const appData = [
                     { weight: '1 Part', price: 10.00 },
                 ]
             },
-            {
+            /* {
                 id: 'Guava Haze 🥭🍍',
                 flag: '🇺🇸',
                 name: 'Guava Haze 🥭🍍',
@@ -615,7 +615,7 @@ const appData = [
                     { weight: '5 Unité', price: 250.00 },
                     { weight: '10 Unité', price: 450.00 },
                 ]
-            },
+            }, */
             /* {
                 id: 'VAPE_BOUTIQ_1G',
                 flag: '🇺🇸',
