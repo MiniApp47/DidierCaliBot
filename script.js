@@ -68,7 +68,7 @@ const appData = [
         quality: '🇺🇸 Cali',
         image: 'CategCali.png', 
         products: [
-            {
+          /*   {
                 id: 'LOVE POTION ',
                 flag: '🇺🇸',
                 name: 'LOVE POTION 🔮',
@@ -103,7 +103,7 @@ const appData = [
                     { weight: '50G', price: 420.00 },
                     { weight: '100G', price: 800.00 },
                 ]
-            },
+            }, */
             /* {
                 id: 'THE JUICE',
                 flag: '🇺🇸',
@@ -122,7 +122,7 @@ const appData = [
                     { weight: '100G', price: 800.00 },
                 ]
             }, */
-            {
+          /*   {
                 id: '🍬 SUGAR BABY 👼',
                 flag: '🇺🇸',
                 name: '🍬 SUGAR BABY 👼',
@@ -157,7 +157,7 @@ const appData = [
                     { weight: '50G', price: 420.00 },
                     { weight: '100G', price: 800.00 },
                 ]
-            },
+            }, */
             /* {
                 id: 'TROPICANA CHERRY 🍒',
                 flag: '🇺🇸',
@@ -174,7 +174,7 @@ const appData = [
                     { weight: '25g', price: 220.00 }
                 ]
             }, */
-            {
+          /*   {
                 id: 'PAPAYA PUNCH 🥊',
                 flag: '🇺🇸',
                 name: 'PAPAYA PUNCH 🥊',
@@ -205,7 +205,7 @@ const appData = [
                     { weight: '10g', price: 100.00 },
                     { weight: '25g', price: 220.00 }
                 ]
-            },
+            }, */
            /*  {
                 id: 'Purple Runtz',
                 flag: '🇺🇸',
@@ -221,7 +221,7 @@ const appData = [
                     { weight: '10g', price: 100.00 }
                 ]
             }, */
-           {
+        /*    {
     id: 'GIRLS SCOOT COOKIES 🍪',
     flag: '🇺🇸',
     name: '👸🏻 GIRLS SCOOT COOKIES 🍪',
@@ -241,7 +241,7 @@ const appData = [
     tarifs: [
         { weight: '10g', price: 100.00 }
     ]
-},
+}, */
            /*  {
                 id: 'Fresca de Poetry',
                 flag: '🇺🇸',
@@ -443,6 +443,51 @@ const appData = [
         image: 'CategFiltre.png', 
         products: [
             {
+                id: 'GMO',
+                flag: '🇲🇦',
+                name: 'GMO 🌽',
+                farm: 'KingsFarmZ 🇲🇦',
+                promoEligible: true,
+                type: 'Filtre',
+                image: 'ProductMS.png',
+                video: 'VideoMS.mp4',
+                description: 'Le GMO se distingue par un profil aromatique puissant et atypique, dominé par des notes d’oignon, d’ail et d’épices. \n Des nuances terreuses, gazeuses et légèrement boisées viennent compléter l’ensemble, pour une signature particulièrement intense.\n  Sa texture est compacte, fine et légèrement huileuse. \n Le tamisage 120U lui apporte une matière homogène, souple à la manipulation et facile à effriter.',
+                tarifs: [
+                    { weight: '10g', price: 100.00 },
+                    { weight: '25g', price: 210.00 }
+                ]
+            },
+            {
+                id: 'MANDARINA SORBET🍊',
+                flag: '🇲🇦',
+                name: 'MANDARINA SORBET🍊',
+                farm: 'KingsFarmZ 🇲🇦',
+                promoEligible: true,
+                type: 'Filtre',
+                image: 'ProductMS.png',
+                video: 'VideoMS.mp4',
+                description: 'aux profils aromatiques gourmands, fruités et crémeux.\n La texture est souple, mousseuse et légèrement grasse, avec une matière homogène et facile à travailler.\n Mandarina Sorbet  développe des notes de cacahuète grillée et de noisette, Tropicana Cherry un mélange d’agrumes et d’orange, sorbet un profil fruité et pâtissier, tandis que Gelato offre des nuances crémeuses, sucrées et vanillées.',
+                tarifs: [
+                    { weight: '10g', price: 100.00 },
+                    { weight: '25g', price: 210.00 }
+                ]
+            },
+            {
+                id: 'BUBBLE GUM',
+                flag: '🇲🇦',
+                name: 'BUBBLE GUM 🍬',
+                farm: 'KingsFarmZ 🇲🇦',
+                promoEligible: true,
+                type: 'Filtre',
+                image: 'ProductBG.png',
+                video: 'VideoBG.mp4',
+                description: 'Le Bible guide chez kings Farmz se distingue par un profil aromatique gourmand, dominé par des notes crémeuses, vanillées et pâtissières. \n Des nuances légèrement fruitées, terreuses et épicées viennent compléter l’ensemble.\n Sa texture est compacte, fine et légèrement huileuse, avec un aspect clair et cristallin caractéristique du format premium. \n La matière reste homogène et s’effrite facilement.\n Une référence américaine de qualité Premium +++, issue de la gamme Coffee Shop et proposée dans un format Frozen particulièrement concentré en arômes.',
+                tarifs: [
+                    { weight: '10g', price: 100.00 },
+                    { weight: '25g', price: 210.00 }
+                ]
+            },
+           /*  {
                 id: 'SNICKERS 🍫',
                 flag: '🇲🇦',
                 name: 'SNICKERS 🍫',
@@ -485,7 +530,7 @@ const appData = [
                 tarifs: [
                     { weight: '10g', price: 100.00 }
                 ]
-            },
+            }, */
             /* {
                 id: 'Gas Mint 🧊',
                 flag: '🇺🇸',
@@ -636,7 +681,7 @@ const appData = [
                     { weight: '10g', price: 450.00 }
                 ]
             },
-            {
+            /* {
                 id: 'Le Loup 🐺',
                 flag: '🇨🇴',
                 name: 'Le Loup 🐺',
@@ -667,7 +712,7 @@ const appData = [
                     { weight: '1g', price: 70.00 },
                     { weight: '2g', price: 120.00 },
                 ]
-            }
+            } */
         ]
     },
 
