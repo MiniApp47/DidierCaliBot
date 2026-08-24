@@ -449,8 +449,8 @@ const appData = [
                 farm: 'KingsFarmZ 🇲🇦',
                 promoEligible: true,
                 type: 'Filtre',
-                image: 'ProductMS.png',
-                video: 'VideoMS.mp4',
+                image: 'ProductGMO.png',
+                video: 'VideoGMO.mp4',
                 description: 'Le GMO se distingue par un profil aromatique puissant et atypique, dominé par des notes d’oignon, d’ail et d’épices. \n Des nuances terreuses, gazeuses et légèrement boisées viennent compléter l’ensemble, pour une signature particulièrement intense.\n  Sa texture est compacte, fine et légèrement huileuse. \n Le tamisage 120U lui apporte une matière homogène, souple à la manipulation et facile à effriter.',
                 tarifs: [
                     { weight: '10g', price: 100.00 },
