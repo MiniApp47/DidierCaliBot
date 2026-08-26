@@ -349,7 +349,7 @@ const appData = [
                 farm: 'DidierSelection 🗽',
                 promoEligible: true,
                 // Produit visible mais impossible à commander
-    outOfStock: true,
+                outOfStock: false,
                 type: 'Weed',
                 image: 'ProductSSH.jpg',
                 video: 'VideoSSH.mov',
