@@ -647,6 +647,24 @@ const appData = [
         image: 'CategZip.png', 
         products: [
             {
+                id: 'Mexicaine 🇲🇽',
+                flag: '🇲🇽',
+                name: 'Mexicaine 🇲🇽',
+                farm: 'No Farm',
+                promoEligible: true,
+                type: 'Hash',
+                image: 'ProductMX.jpg',
+                images: ['ProductMX.jpg','ProductMX2.jpg'],
+                video: 'VideoMX.mp4',
+                description: '',
+                tarifs: [
+                    { weight: '1g', price: 80.00 },
+                    { weight: '2g', price: 150.00 },
+                    { weight: '5g', price: 350.00 },
+                    { weight: '10g', price: 500.00 }
+                ]
+            },
+            {
                 id: 'Diesel 2 ⛽',
                 flag: '🇨🇴',
                 name: 'Diesel 2 ⛽',
