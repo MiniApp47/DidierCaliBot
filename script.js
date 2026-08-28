@@ -68,6 +68,21 @@ const appData = [
         quality: '🇺🇸 Cali',
         image: 'CategCali.png', 
         products: [
+            {
+                id: 'RAINBOW RUNTZ ',
+                flag: '🇺🇸',
+                name: 'RAINBOW RUNTZ 🔮',
+                farm: 'DidierSelection 🗽',
+                promoEligible: true,
+                type: 'Weed',
+                image: 'ProductRR.png',
+                 videos: ['VideoRR.mp4','VideoRR2.mp4'],
+                description: 'Les effets du Rainbow Runtz moderne sont hybrides, parfaits pour fumer en journée et en après-midi. \n Les critiques sur Leafly qui ont fumé cette variété disent qu\'elle les rend heureux et détendus, et qu\'elle se marie bien avec vos passe-temps préférés. \n La saveur de Rainbow Runtz est un front de bonbons avec un dos de carburant piquant.',
+                tarifs: [
+                    { weight: '10g', price: 100.00 },
+                    { weight: '25G', price: 210.00 },
+                ]
+            },
           /*   {
                 id: 'LOVE POTION ',
                 flag: '🇺🇸',
